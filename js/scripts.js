@@ -6,4 +6,7 @@ $(document).ready(function() {
   $("button#goodBoy").click(function() {
     $("ul#CatIsGone").append("<li><img src='img/goodboy.jfif' alt='A very good boy'></li>")
   })
+  $("<li><img src='img/goodboy.jfif' alt='A very good boy'></li>").click(function() {
+    $(this).remove();
+  })
 })
