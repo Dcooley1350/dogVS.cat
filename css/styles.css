@@ -7,3 +7,10 @@ img {
   text-align: center;
 }
 
+.centered-Paragraph {
+  text-align: center;
+  color: green;
+  font-size: 200;
+  font-style: italic
+}
+
